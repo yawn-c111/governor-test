@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn hardhat test"
+    "test": "yarn hardhat test",
+    "compile": "yarn hardhat compile",
+    "localnode": "yarn hardhat node",
+    "clean": "yarn hardhat clean"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
